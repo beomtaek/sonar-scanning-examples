@@ -8,8 +8,8 @@ fun emptyFunction() {
 }
 
 fun buggyFunction(str: String){
-  if (str == "hello"){
-    println("Hello!")
+  if (str == "beomtaek"){
+    println("Hello beomtaek")
   } else if (str == "goodbye"){
     println("Goodbye!")
   } else if (str == "hello"){ // Bug - Duplicate condition
